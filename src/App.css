@@ -1,28 +1,95 @@
-.App {
+* {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+body {
+  /* background: url(http://i.imgur.com/ZB8O0DL.jpg); */
+  background: url(img/download.jpeg);
+  background-size: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
   text-align: center;
+  margin: 0 auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+h1 {
+  font-size: 4rem;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+button {
+  margin: 10% 35% 5%;
   color: white;
+  /* background-color: #CA1313; */
+  background-color: #3973D1;
+  border: solid 2px rgb(255, 255, 255);
+  -webkit-box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  transition: all .7s ease-in-out;
 }
 
-.App-title {
-  font-size: 1.5em;
+button:hover {
+  color: #CA1313;
+  background-color: rgb(255, 255, 255);
+  border: solid 2px #CA1313;
+  -webkit-box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  transition: all .7s ease-in-out;
 }
 
-.App-intro {
-  font-size: large;
+input {
+  /* margin-top: 10%; */
+  background-color: rgba(255, 255, 255, 5.0);
+  width: 80%;
+  margin: 25% auto 0 10%;
+  height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.col-md-3 {
+  border-radius: .5%;
+  border: solid 1px rgb(255, 255, 255);
+  margin: 0% 3% 3%;
+  background-color: rgba(131, 140, 156, 0.3);
+  border-radius: 15%;
+  min-height: 275px;
+  -webkit-box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  background: url(img/list.png);
+  background-size: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+li {
+  background-color: rgba(255, 255, 255, .9);
+  list-style-type: none;
+  -webkit-box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 25%;
+  border-radius: 2%;
+}
+
+li:hover {
+  background-color: white;
 }

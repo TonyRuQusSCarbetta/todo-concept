@@ -36,14 +36,16 @@ pushToList = () => {
 
   render() {
     return (
-      <div>
+      <div className="col-md-3">
+      <input onChange={this.Change}
+              value={this.state.inputValue}
+              placeholder="enter task"
+              className=""
+      />
         <button onClick={this.pushToList}
                 disabled={this.state.disabled}>
-                Click
+                Add
         </button>
-        <input onChange={this.Change}
-                value={this.state.inputValue}
-        />
         <List listItems={this.state.list} />
       </div>
     );
