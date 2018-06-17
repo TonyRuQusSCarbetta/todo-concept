@@ -36,7 +36,7 @@ pushToList = () => {
 
   render() {
     return (
-      <div className="col-md-3">
+      <div className="col-md-3 task-box">
       <input onChange={this.Change}
               value={this.state.inputValue}
               placeholder="enter task"

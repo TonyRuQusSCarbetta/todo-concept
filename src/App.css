@@ -5,7 +5,10 @@
 body {
   /* background: url(http://i.imgur.com/ZB8O0DL.jpg); */
   background: url(img/download.jpeg);
-  background-size: no-repeat center center fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -70,13 +73,14 @@ input {
 }
 
 
-.col-md-3 {
+.task-box {
   border-radius: .5%;
   border: solid 1px rgb(255, 255, 255);
   margin: 0% 3% 3%;
   background-color: rgba(131, 140, 156, 0.3);
   border-radius: 15%;
-  min-height: 275px;
+  min-height:290px;
+  min-width: 290px;
   -webkit-box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 26px -5px rgba(0, 0, 0, 0.75);
