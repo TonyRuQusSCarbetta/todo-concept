@@ -44,7 +44,8 @@ pushToList = () => {
       />
         <button onClick={this.pushToList}
                 disabled={this.state.disabled}>
-                Add
+                <i className="fa fa-plus"></i>
+                Add Task
         </button>
         <List listItems={this.state.list} />
       </div>
